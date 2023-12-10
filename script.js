@@ -1,8 +1,7 @@
 const arr = [1, 2, 3, 4, 1, 0, 2, 2];
 
 const divide = (arr, n) => {
-  // Write your code here
-	const result = [];
+  const result = [];
   let currentChunk = [];
 
   for (const num of arr) {
@@ -21,5 +20,6 @@ const divide = (arr, n) => {
   return result;
 };
 
-const n = prompt("Enter n: ");
-alert(JSON.stringify(divide(arr, n)));
+const userN = prompt("Enter n: ");
+const result = divide(arr, parseInt(userN, 10));
+alert(JSON.stringify(result));
