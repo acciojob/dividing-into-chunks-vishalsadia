@@ -20,6 +20,6 @@ const divide = (arr, n) => {
   return result;
 };
 
-const userN = prompt("Enter n: ");
-const result = divide(arr, parseInt(userN, 10));
-alert(JSON.stringify(result));
+// const userN = prompt("Enter n: ");
+// const result = divide(arr, parseInt(userN, 10));
+// alert(JSON.stringify(result));
